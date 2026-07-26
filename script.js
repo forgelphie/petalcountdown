@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var RELEASE = new Date(2026, 6, 31, 0, 0, 0);
+  var RELEASE = new Date("2026-07-31T04:00:00Z");
   var TOTAL_PETALS = 12;
   var WINDOW_MS = TOTAL_PETALS * 24 * 60 * 60 * 1000; 
   var START = new Date(RELEASE.getTime() - WINDOW_MS);
